@@ -10,9 +10,14 @@ function App() {
 
   // Big booty hoes
   
+<<<<<<< HEAD
   //FHackUtd
   gpriygyw80ghwr8oreturn (
     <div className="App69">
+=======
+  return (
+    <div className="App">
+>>>>>>> 4e393cb62167099b63d4c82ff518cae90dcf9c94
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
