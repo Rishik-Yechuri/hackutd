@@ -1,7 +1,12 @@
-class History extends React.Component {
-    render() {
-        return <div>
-            <div>ILOVEHISTORY</div>
+import React, {useEffect, useMemo, useRef, useState} from 'react';
+
+
+const HistoryComponent = ({state, algoState, buttonState, setState, resetState}) => {
+
+    return (
+        <div id={"mazeTopDiv"} >
+         <div>ILOVEHISTORY</div>
         </div>
-    }
+    );
 }
+export default HistoryComponent;
