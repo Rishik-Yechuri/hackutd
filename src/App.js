@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   //ILovepuss
-  
-  gpriygyw80ghwr8oreturn (
-    <div className="App69">
+  //I love tittie
+  return (
+      <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
