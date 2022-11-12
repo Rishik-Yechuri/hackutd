@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
+  //ILovepuss
+  
+  gpriygyw80ghwr8oreturn (
+    <div className="App69">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn JS
         </a>
       </header>
     </div>
