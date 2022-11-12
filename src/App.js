@@ -1,32 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navigation from './pages/Navigation';
+import Homepage from './pages/Homepage';
+import History from './pages/History';
+import Friends from './pages/Friends';
 
 function App() {
-  //ILovepuss
-  //Fuck Hack Utd
-  //I love tittie
-
-  // Big booty hoes
-  
-  //FHackUtd
   return (
-    <div className="App">
-
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn JS
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Navigation />}>
+                <Route index element={<Homepage />} />
+                <Route path="history" element={<History />} />
+                <Route path="friends" element={<Friends />} />
+            </Route>
+        </Routes>
+    </BrowserRouter>
   );
 }
 
