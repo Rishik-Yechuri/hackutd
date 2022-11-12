@@ -3,9 +3,15 @@ import './App.css';
 
 function App() {
   //ILovepuss
+  //Fuck Hack Utd
+  //I love tittie
+
+  // Big booty hoes
   
-  gpriygyw80ghwr8oreturn (
-    <div className="App69">
+  //FHackUtd
+  return (
+    <div className="App">
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
