@@ -13,10 +13,13 @@ const HistoryComponent = () => {
         ["Q", 0,0],
         ["P", 2,1],
         ["U", 4,3],
-        ["A", 6,6],
-        ["B", 6,1],
-        ["Z", 4,0],
-        ["Y", 7,4]
+        ["H", 6,6],
+        ["A", 6,1],
+        ["C", 4,0],
+        ["K", 6,6],
+        ["U", 6,1],
+        ["T", 4,0],
+        ["D", 7,4]
     ];
     let items2 = [
         ["A", 2,4],
@@ -38,10 +41,11 @@ const HistoryComponent = () => {
         return <HistoryTileComponent state={"soon"}></HistoryTileComponent>;
     }
    // alert("FUCK");
-    const threeHeaders = Array.from({length: 3}, (_, index) => {
+    const threeHeaders = Array.from({length: items.length}, (_, index) => {
        // return <Header key={index} />;
         //alert("Place in Items:" + items2[index][0]);
-        return <HistoryTileComponent state={items[index][0]}></HistoryTileComponent>;
+        var stringToPass = items[index][0] + " seen at (" + items[index][1] + ", " + items[index][2] + ")";
+        return <HistoryTileComponent state={stringToPass} ></HistoryTileComponent>;
     });
    // alert(threeHeaders);
 

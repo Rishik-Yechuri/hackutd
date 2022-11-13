@@ -2,7 +2,7 @@ import React, {useEffect, useMemo, useRef, useState} from 'react';
 import "./HistoryTileStyle.css"
 
 
-const HistoryTileComponent = ({state}) => {
+const HistoryTileComponent = ({state,lat,long}) => {
    /* useEffect(() => {
         document.getElementById("mainTextHistoryTile").textContent = state;
     }, [state]);*/
