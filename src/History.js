@@ -35,20 +35,13 @@ const HistoryComponent = () => {
         ["K", 4,0],
         ["L", 7,4]
     ];
-   // alert("EBGIYUWHEBIGFK");
     function Header() {
-        //alert("State:" + state);
         return <HistoryTileComponent state={"soon"}></HistoryTileComponent>;
     }
-   // alert("FUCK");
     const threeHeaders = Array.from({length: items.length}, (_, index) => {
-       // return <Header key={index} />;
-        //alert("Place in Items:" + items2[index][0]);
         var stringToPass = items[index][0] + " seen at (" + items[index][1] + ", " + items[index][2] + ")";
         return <HistoryTileComponent state={stringToPass} ></HistoryTileComponent>;
     });
-   // alert(threeHeaders);
-
     return (
         <div id={"mainPieceHistory"}  >
             {threeHeaders}

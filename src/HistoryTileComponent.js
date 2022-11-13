@@ -3,9 +3,6 @@ import "./HistoryTileStyle.css"
 
 
 const HistoryTileComponent = ({state,lat,long}) => {
-   /* useEffect(() => {
-        document.getElementById("mainTextHistoryTile").textContent = state;
-    }, [state]);*/
     return (
         <div>
             <div id={"mainTextHistoryTile"}>{state}</div>
