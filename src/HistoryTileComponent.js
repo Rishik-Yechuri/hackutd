@@ -1,14 +1,15 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react';
+import "./HistoryTileStyle.css"
 
 
 const HistoryTileComponent = ({state}) => {
-    useEffect(() => {
+   /* useEffect(() => {
         document.getElementById("mainTextHistoryTile").textContent = state;
-    }, [state]);
+    }, [state]);*/
     return (
-        <div >
-            <div id={"mainTextHistoryTile"}>Meet at Fuckbuddy Convention</div>
-            <hr></hr>
+        <div>
+            <div id={"mainTextHistoryTile"}>{state}</div>
+            <hr className={"regSplitter"}></hr>
         </div>
     );
 }
