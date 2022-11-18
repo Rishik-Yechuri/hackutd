@@ -11,9 +11,21 @@ function App() {
 
   return (
     <div className="App">
-      <HistoryComponent ></HistoryComponent>
-    <RequestsComponent></RequestsComponent>
 
+
+      <HistoryComponent ></HistoryComponent>
+
+
+
+
+{/*
+    <RequestsComponent></RequestsComponent>
+*/}
+
+
+  <div id={"bottomNav"}>
+
+  </div>
     </div>
   );
 }
